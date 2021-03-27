@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for DustBinz-Backend/routes/auth.js</title>
+    <title>Code coverage report for DustBinz-Backend/config/passport.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">DustBinz-Backend/routes</a> auth.js</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">DustBinz-Backend/config</a> passport.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">35.71% </span>
+                <span class="strong">35% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>10/28</span>
+                <span class='fraction'>7/20</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/8</span>
+                <span class='fraction'>0/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/3</span>
+                <span class='fraction'>0/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">41.67% </span>
+                <span class="strong">36.84% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>10/24</span>
+                <span class='fraction'>7/19</span>
             </div>
         
             
@@ -101,8 +101,7 @@
 <a name='L42'></a><a href='#L42'>42</a>
 <a name='L43'></a><a href='#L43'>43</a>
 <a name='L44'></a><a href='#L44'>44</a>
-<a name='L45'></a><a href='#L45'>45</a>
-<a name='L46'></a><a href='#L46'>46</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
+<a name='L45'></a><a href='#L45'>45</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
@@ -111,21 +110,9 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -137,62 +124,72 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span></td><td class="text"><pre class="prettyprint lang-js">const express = require('express');
-const router = express.Router();
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const passport = require('passport');
+const GoogleStrategy = require('passport-google-oauth20');
+require('dotenv').config();
 const {User} = require('../models/user');
-const _ = require('lodash');
-const Joi = require('joi');
-const passport = require('passport');
+var generator = require('generate-password');
+const bcrypt = require('bcrypt');
 &nbsp;
-router.post('/', <span class="fstat-no" title="function not covered" >as</span>ync (req, res)=&gt; {
+passport.use(new GoogleStrategy({
+    // options for startegy
+    callbackURL:'https://thin-ape-26.loca.lt/api/auth/google/redirect',
+    clientID: process.env.CLIENT_ID_GOOGLE,
+    clientSecret: process.env.CLIENT_SECRET_GOOGLE
 &nbsp;
-    const {error} = <span class="cstat-no" title="statement not covered" >validate(req.body);</span>
-<span class="cstat-no" title="statement not covered" >    if(error) <span class="cstat-no" title="statement not covered" >return res.status(400).send({error:error.details[0].message});</span></span>
-&nbsp;
-    let user = <span class="cstat-no" title="statement not covered" >await User.findOne({email: req.body.email});</span>
-<span class="cstat-no" title="statement not covered" >    if(!user) <span class="cstat-no" title="statement not covered" >return res.status(400).send({error:"Invalid Email or Password"});</span></span>
-&nbsp;
-    const validPassword = <span class="cstat-no" title="statement not covered" >await user.validatePassword(req.body.password);</span>
-<span class="cstat-no" title="statement not covered" >    if(!validPassword) <span class="cstat-no" title="statement not covered" >return res.status(400).send({error:"Invalid Email or Password"});</span></span>
-&nbsp;
-    const token = <span class="cstat-no" title="statement not covered" >user.generateAuthToken();</span>
-<span class="cstat-no" title="statement not covered" >    res.send({token:token});</span>
+},<span class="fstat-no" title="function not covered" >as</span>ync (accessToken, refreshToken, profile, done)=&gt;{
+    // passport callback function
+<span class="cstat-no" title="statement not covered" >    try {</span>
+        
+        let user = <span class="cstat-no" title="statement not covered" >await User.findOne({googleId: profile.id})</span>
+<span class="cstat-no" title="statement not covered" >        if(user) <span class="cstat-no" title="statement not covered" >return done(null, user);</span></span>
+    } catch (error) {
+<span class="cstat-no" title="statement not covered" >        return done(error, false)</span>
+    }
+    
+<span class="cstat-no" title="statement not covered" >    try {</span>
+        
+        const password = <span class="cstat-no" title="statement not covered" >generator.generate({</span>
+            length: 10,
+            numbers: true
+        })
+<span class="cstat-no" title="statement not covered" >        user = new User({</span>
+            name: profile.name.givenName,
+            email: profile.emails[0].value,
+            googleId: profile.id,
+            password: password
+        });
+        const salt = <span class="cstat-no" title="statement not covered" >await bcrypt.genSalt(10);</span>
+<span class="cstat-no" title="statement not covered" >        user.password =  await bcrypt.hash(user.password, salt);</span>
+<span class="cstat-no" title="statement not covered" >        await user.save();</span>
+<span class="cstat-no" title="statement not covered" >        return done(null, user);</span>
+    } catch (error) {
+<span class="cstat-no" title="statement not covered" >        return done(error, false);</span>
+    }
 })
-&nbsp;
-// google
-router.get('/google/redirect', 
-passport.authenticate('google', { session: false }), 
-<span class="fstat-no" title="function not covered" >(r</span>eq, res)=&gt;{
-    // take out ip of the app
-    const redirect = <span class="cstat-no" title="statement not covered" >redirectUrl.substring(redirectUrl.indexOf('/')+1);</span>
-    // Bad request on creating database
-<span class="cstat-no" title="statement not covered" >    if(req.error) <span class="cstat-no" title="statement not covered" >res.status(500).redirect(`exp://${redirect}?error=Something Failed`)</span></span>
-    const token = <span class="cstat-no" title="statement not covered" >req.user.generateAuthToken();</span>
-    // console.log(`exp://${redirect}`);
-<span class="cstat-no" title="statement not covered" >    res.redirect(`exp://${redirect}?token=${token}`);</span>
-})
-&nbsp;
-const validate = <span class="fstat-no" title="function not covered" >(r</span>eq)=&gt;{
-&nbsp;
-    const schema = <span class="cstat-no" title="statement not covered" >Joi.object({</span>
-        email: Joi.string().min(5).max(255).required().email(),
-        password: Joi.string().min(5).max(1024).required(),
-    });
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    return schema.validate(req);</span>
-}
-&nbsp;
-module.exports = router;</pre></td></tr></table></pre>
+)
+&nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

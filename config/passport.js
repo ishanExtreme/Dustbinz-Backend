@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt');
 
 passport.use(new GoogleStrategy({
     // options for startegy
-    callbackURL:'https://quick-insect-33.loca.lt/api/auth/google/redirect',
+    callbackURL:'https://tender-dragonfly-32.loca.lt/api/auth/google/redirect',
     clientID: process.env.CLIENT_ID_GOOGLE,
     clientSecret: process.env.CLIENT_SECRET_GOOGLE
 

@@ -523,3 +523,212 @@
 {"message":"Listening to port 3000...","level":"info","service":"user-service"}
 {"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
 {"service":"user-service","expose":true,"statusCode":400,"status":400,"body":"file:/data/user/0/host.exp.exponent/cache/ExperienceData/%2540_extreme_%252FDustBinz/ImagePicker/19b3e493-d4db-48d7-b232-7e4c92697443.jpg","type":"entity.parse.failed","level":"error","message":"Unexpected token f in JSON at position 0 Unexpected token f in JSON at position 0","stack":"SyntaxError: Unexpected token f in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/body-parser/lib/types/json.js:158:10)\n    at parse (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/body-parser/lib/types/json.js:83:15)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/body-parser/lib/read.js:121:18\n    at invokeCallback (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/raw-body/index.js:224:16)\n    at done (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"service":"user-service","Code":"ExpiredToken","Token-0":"FwoGZXIvYXdzEDgaDFocNx+hb02qu0mITSLJASLNEkYUWyjrEGw6wk10j7CMWIQWcCMVR+x5ZgjOYMVQ+Kd/bunbtFVUZeShvI9NGApgCWZTrLCS14skHd5oH5G27HdfhQTaSXhSEiG172pPcLeW6F6Omg1au+WDbMxobBaK5AzsAGfWQzeygJ8fMpZsqjN7cifCcWTHj84ZfMoEGdScDFDw3i3s+BtSs/TIqUqYAjaG1gX5fxutWXscrR9CJeAqhcpviDVMwL6ER/GpwtFuan/UGPqj0osvrtl0t+s/vVykxIkZGij49dKCBjIt4r1EQiR8yeMAk7PiNTfwXKPBLjloj8v9zDO8ZoEuphWnWPnsvnH3ecAZLBfd","RequestId":"97YWC9ZF6KJTBXV9","HostId":"kAsovq51r6jdrb46doznKK7mJC86TWSkxzae3nof0NG99UEm4wmUcuuLjxI3wQYta+/hlmsQxzk=","name":"ExpiredToken","$fault":"client","$metadata":{"httpStatusCode":400,"extendedRequestId":"kAsovq51r6jdrb46doznKK7mJC86TWSkxzae3nof0NG99UEm4wmUcuuLjxI3wQYta+/hlmsQxzk=","attempts":1,"totalRetryDelay":0},"level":"error","message":"The provided token has expired. The provided token has expired.","stack":"ExpiredToken: The provided token has expired.\n    at deserializeAws_restXmlPutObjectCommandError (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:8035:41)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at async /home/extreme/Web-Practice/DustBinz-Backend/node_modules/@aws-sdk/middleware-serde/dist/cjs/deserializerMiddleware.js:6:20\n    at async /home/extreme/Web-Practice/DustBinz-Backend/node_modules/@aws-sdk/middleware-signing/dist/cjs/middleware.js:12:24\n    at async StandardRetryStrategy.retry (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/@aws-sdk/middleware-retry/dist/cjs/defaultStrategy.js:56:46)\n    at async /home/extreme/Web-Practice/DustBinz-Backend/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22\n    at async /home/extreme/Web-Practice/DustBinz-Backend/routes/upload.js:52:18"}
+{"service":"user-service","Code":"ExpiredToken","Token-0":"FwoGZXIvYXdzEDgaDFocNx+hb02qu0mITSLJASLNEkYUWyjrEGw6wk10j7CMWIQWcCMVR+x5ZgjOYMVQ+Kd/bunbtFVUZeShvI9NGApgCWZTrLCS14skHd5oH5G27HdfhQTaSXhSEiG172pPcLeW6F6Omg1au+WDbMxobBaK5AzsAGfWQzeygJ8fMpZsqjN7cifCcWTHj84ZfMoEGdScDFDw3i3s+BtSs/TIqUqYAjaG1gX5fxutWXscrR9CJeAqhcpviDVMwL6ER/GpwtFuan/UGPqj0osvrtl0t+s/vVykxIkZGij49dKCBjIt4r1EQiR8yeMAk7PiNTfwXKPBLjloj8v9zDO8ZoEuphWnWPnsvnH3ecAZLBfd","RequestId":"GZ44APDX2WNN2RV7","HostId":"whmFH9eHiC2aHbioAAq15lb5aZ1+tM6ASAp8ifu0bHXvv6Uj8R0FMcV/A6FWttlFSmHk/DRQv8w=","name":"ExpiredToken","$fault":"client","$metadata":{"httpStatusCode":400,"extendedRequestId":"whmFH9eHiC2aHbioAAq15lb5aZ1+tM6ASAp8ifu0bHXvv6Uj8R0FMcV/A6FWttlFSmHk/DRQv8w=","attempts":1,"totalRetryDelay":0},"level":"error","message":"The provided token has expired. The provided token has expired.","stack":"ExpiredToken: The provided token has expired.\n    at deserializeAws_restXmlPutObjectCommandError (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:8035:41)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at async /home/extreme/Web-Practice/DustBinz-Backend/node_modules/@aws-sdk/middleware-serde/dist/cjs/deserializerMiddleware.js:6:20\n    at async /home/extreme/Web-Practice/DustBinz-Backend/node_modules/@aws-sdk/middleware-signing/dist/cjs/middleware.js:12:24\n    at async StandardRetryStrategy.retry (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/@aws-sdk/middleware-retry/dist/cjs/defaultStrategy.js:56:46)\n    at async /home/extreme/Web-Practice/DustBinz-Backend/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22\n    at async /home/extreme/Web-Practice/DustBinz-Backend/routes/upload.js:52:18"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"service":"user-service","level":"error","message":"location is not defined location is not defined","stack":"ReferenceError: location is not defined\n    at /home/extreme/Web-Practice/DustBinz-Backend/routes/bins.js:9:9\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:317:13)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:284:7"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"service":"user-service","level":"error","message":"Parameter \"obj\" to Document() must be an object, got 255 Parameter \"obj\" to Document() must be an object, got 255","stack":"ObjectParameterError: Parameter \"obj\" to Document() must be an object, got 255\n    at model.Document (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/document.js:100:11)\n    at model.Model (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/model.js:105:12)\n    at new model (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/model.js:4709:15)\n    at /home/extreme/Web-Practice/DustBinz-Backend/routes/bins.js:8:17\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"service":"user-service","level":"error","message":"Parameter \"obj\" to Document() must be an object, got 255 Parameter \"obj\" to Document() must be an object, got 255","stack":"ObjectParameterError: Parameter \"obj\" to Document() must be an object, got 255\n    at model.Document (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/document.js:100:11)\n    at model.Model (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/model.js:105:12)\n    at new model (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/model.js:4709:15)\n    at /home/extreme/Web-Practice/DustBinz-Backend/routes/bins.js:8:17\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"service":"user-service","level":"error","message":"Parameter \"obj\" to Document() must be an object, got 255.555 Parameter \"obj\" to Document() must be an object, got 255.555","stack":"ObjectParameterError: Parameter \"obj\" to Document() must be an object, got 255.555\n    at model.Document (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/document.js:100:11)\n    at model.Model (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/model.js:105:12)\n    at new model (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/model.js:4709:15)\n    at /home/extreme/Web-Practice/DustBinz-Backend/routes/bins.js:8:17\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"service":"user-service","level":"error","message":"Parameter \"obj\" to Document() must be an object, got ishan Parameter \"obj\" to Document() must be an object, got ishan","stack":"ObjectParameterError: Parameter \"obj\" to Document() must be an object, got ishan\n    at model.Document (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/document.js:100:11)\n    at model.Model (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/model.js:105:12)\n    at new model (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/model.js:4709:15)\n    at /home/extreme/Web-Practice/DustBinz-Backend/routes/bins.js:8:17\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"service":"user-service","errors":{"name":{"name":"ValidatorError","message":"Path `name` is required.","properties":{"message":"Path `name` is required.","type":"required","path":"name"},"kind":"required","path":"name"}},"_message":"Bin validation failed","level":"error","message":"Bin validation failed: name: Path `name` is required. Bin validation failed: name: Path `name` is required.","stack":"ValidationError: Bin validation failed: name: Path `name` is required.\n    at model.Document.invalidate (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/document.js:2691:32)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/document.js:2512:17\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/schematype.js:1241:9\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"service":"user-service","errors":{"name":{"name":"ValidatorError","message":"Path `name` is required.","properties":{"message":"Path `name` is required.","type":"required","path":"name"},"kind":"required","path":"name"}},"_message":"Bin validation failed","level":"error","message":"Bin validation failed: name: Path `name` is required. Bin validation failed: name: Path `name` is required.","stack":"ValidationError: Bin validation failed: name: Path `name` is required.\n    at model.Document.invalidate (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/document.js:2691:32)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/document.js:2512:17\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/mongoose/lib/schematype.js:1241:9\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"service":"user-service","level":"error","message":"Joi.String is not a function Joi.String is not a function","stack":"TypeError: Joi.String is not a function\n    at validateBin (/home/extreme/Web-Practice/DustBinz-Backend/models/bin.js:55:19)\n    at /home/extreme/Web-Practice/DustBinz-Backend/routes/bins.js:15:21\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:137:13)\n    at module.exports (/home/extreme/Web-Practice/DustBinz-Backend/middleware/auth.js:15:9)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:174:3)"}
+{"service":"user-service","level":"error","message":"Joi.String is not a function Joi.String is not a function","stack":"TypeError: Joi.String is not a function\n    at validateBin (/home/extreme/Web-Practice/DustBinz-Backend/models/bin.js:55:19)\n    at /home/extreme/Web-Practice/DustBinz-Backend/routes/bins.js:15:21\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:137:13)\n    at module.exports (/home/extreme/Web-Practice/DustBinz-Backend/middleware/auth.js:15:9)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/layer.js:95:5)\n    at /home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/extreme/Web-Practice/DustBinz-Backend/node_modules/express/lib/router/index.js:174:3)"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz_test","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Error connecting to mongodb","level":"error","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Error connecting to mongodb","level":"error","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}

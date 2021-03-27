@@ -33,10 +33,8 @@ const s3 = new S3Client({region: Region});
  * auth required
  */
 router.post('/user-image', auth, upload ,async (req, res)=> {
-    console.log("in");
     // Bad Request
     if(!req.file) return res.status(400).send({error: 'Image not selected'});
-    console.log(req.file);
     // get Image extension
     let file = req.file.originalname.split(".");
     const fileType = file[file.length - 1];

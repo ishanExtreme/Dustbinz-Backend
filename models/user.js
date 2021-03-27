@@ -46,11 +46,22 @@ const UserSchema = new mongoose.Schema({
             type: String,
             //TODO: remove hardcode
             default: 'UserImages/Default/icons8-male-user-96.png'
-        }
+        },
+        // reference to bin one-to-many
+        binsRef: [{
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Bin'
+        }],
+        // for quick query
+        binsProp: [{
+            name: String,
+            isAccepted: Boolean,
+        }]
 });
 
 // virtual property that returns url from the imageKey
 UserSchema.virtual('ImageUrl').get(function() {
+    //TODO: remove hardcode
     return `https://dustbinz.s3.amazonaws.com/${this.imageKey}`;
 });
 

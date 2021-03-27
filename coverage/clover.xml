@@ -1,66 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614362983054" clover="3.2.0">
-  <project timestamp="1614362983054" name="All files">
-    <metrics statements="121" coveredstatements="89" conditionals="18" coveredconditionals="5" methods="19" coveredmethods="8" elements="158" coveredelements="102" complexity="0" loc="121" ncloc="121" packages="5" files="10" classes="10"/>
+<coverage generated="1616766391024" clover="3.2.0">
+  <project timestamp="1616766391024" name="All files">
+    <metrics statements="248" coveredstatements="157" conditionals="40" coveredconditionals="9" methods="32" coveredmethods="11" elements="320" coveredelements="177" complexity="0" loc="248" ncloc="248" packages="6" files="14" classes="14"/>
     <package name="DustBinz-Backend">
-      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.js" path="/home/extreme/Web-Practice/DustBinz-Backend/index.js">
-        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="DustBinz-Backend.config">
+      <metrics statements="19" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="passport.js" path="/home/extreme/Web-Practice/DustBinz-Backend/config/passport.js">
+        <metrics statements="19" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
       </file>
     </package>
     <package name="DustBinz-Backend.middleware">
-      <metrics statements="25" coveredstatements="22" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="1"/>
+      <metrics statements="27" coveredstatements="22" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="1"/>
       <file name="auth.js" path="/home/extreme/Web-Practice/DustBinz-Backend/middleware/auth.js">
         <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="9" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
       </file>
       <file name="error.js" path="/home/extreme/Web-Practice/DustBinz-Backend/middleware/error.js">
-        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
       </file>
       <file name="logger.js" path="/home/extreme/Web-Practice/DustBinz-Backend/middleware/logger.js">
         <metrics statements="11" coveredstatements="10" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="19" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="35" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="19" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="36" count="0" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
       </file>
     </package>
     <package name="DustBinz-Backend.models">
-      <metrics statements="18" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <metrics statements="39" coveredstatements="31" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="3"/>
+      <file name="bin.js" path="/home/extreme/Web-Practice/DustBinz-Backend/models/bin.js">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="54" count="7" type="stmt"/>
+        <line num="61" count="7" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+      </file>
       <file name="user.js" path="/home/extreme/Web-Practice/DustBinz-Backend/models/user.js">
-        <metrics statements="18" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <metrics statements="28" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="73" count="3" type="stmt"/>
+        <line num="74" count="11" type="stmt"/>
+        <line num="83" count="11" type="stmt"/>
+        <line num="91" count="3" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="96" count="3" type="stmt"/>
+        <line num="102" count="3" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="113" count="3" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="123" count="3" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="133" count="3" type="stmt"/>
+        <line num="134" count="3" type="stmt"/>
+        <line num="135" count="3" type="stmt"/>
+        <line num="136" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="DustBinz-Backend.routes">
+      <metrics statements="118" coveredstatements="58" conditionals="28" coveredconditionals="2" methods="11" coveredmethods="2"/>
+      <file name="auth.js" path="/home/extreme/Web-Practice/DustBinz-Backend/routes/auth.js">
+        <metrics statements="24" coveredstatements="10" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+      </file>
+      <file name="bins.js" path="/home/extreme/Web-Practice/DustBinz-Backend/routes/bins.js">
+        <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
@@ -68,104 +173,141 @@
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
-        <line num="48" count="2" type="stmt"/>
-        <line num="49" count="4" type="stmt"/>
-        <line num="52" count="4" type="stmt"/>
-        <line num="60" count="2" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
-        <line num="65" count="2" type="stmt"/>
-        <line num="71" count="2" type="stmt"/>
-        <line num="73" count="0" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="83" count="2" type="stmt"/>
-        <line num="84" count="2" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="17" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
       </file>
-    </package>
-    <package name="DustBinz-Backend.routes">
-      <metrics statements="40" coveredstatements="20" conditionals="10" coveredconditionals="0" methods="4" coveredmethods="1"/>
-      <file name="auth.js" path="/home/extreme/Web-Practice/DustBinz-Backend/routes/auth.js">
-        <metrics statements="19" coveredstatements="9" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
+      <file name="upload.js" path="/home/extreme/Web-Practice/DustBinz-Backend/routes/upload.js">
+        <metrics statements="32" coveredstatements="15" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="56" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
       </file>
       <file name="users.js" path="/home/extreme/Web-Practice/DustBinz-Backend/routes/users.js">
-        <metrics statements="21" coveredstatements="11" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
+        <metrics statements="45" coveredstatements="16" conditionals="12" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="82" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="94" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="107" count="2" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="112" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="125" count="2" type="stmt"/>
       </file>
     </package>
     <package name="DustBinz-Backend.startup">
-      <metrics statements="26" coveredstatements="20" conditionals="2" coveredconditionals="1" methods="9" coveredmethods="4"/>
+      <metrics statements="30" coveredstatements="24" conditionals="2" coveredconditionals="1" methods="9" coveredmethods="4"/>
       <file name="db.js" path="/home/extreme/Web-Practice/DustBinz-Backend/startup/db.js">
         <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
       </file>
       <file name="logging.js" path="/home/extreme/Web-Practice/DustBinz-Backend/startup/logging.js">
         <metrics statements="8" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
       </file>
       <file name="routes.js" path="/home/extreme/Web-Practice/DustBinz-Backend/startup/routes.js">
-        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
       </file>
     </package>
   </project>
