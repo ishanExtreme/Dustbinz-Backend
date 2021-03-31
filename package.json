@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --coverage"
+    "test": "jest --watchAll --verbose --coverage",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node":"12.18.2"
   },
   "keywords": [],
   "author": "",
@@ -12,10 +16,12 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.8.1",
     "bcrypt": "^5.0.0",
+    "compression": "^1.7.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "generate-password": "^1.6.0",
+    "helmet": "^4.4.1",
     "jest": "^26.6.3",
     "joi": "^17.4.0",
     "jsonwebtoken": "^8.5.1",

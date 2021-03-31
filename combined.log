@@ -732,3 +732,6 @@
 {"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
 {"message":"Listening to port 3000...","level":"info","service":"user-service"}
 {"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}
+{"message":"Connected to mongodb://localhost/dustninz","level":"info","service":"user-service"}
+{"message":"Listening to port 3000...","level":"info","service":"user-service"}

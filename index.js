@@ -17,6 +17,9 @@ app.use(passport.initialize());
 // routes setup
 require('./startup/routes')(app);
 
+//production setup
+require('./startup/prod')(app);
+
 const port = process.env.PORT
 const server = app.listen(port , ()=>{
     logger.info(`Listening to port ${port}...`);
