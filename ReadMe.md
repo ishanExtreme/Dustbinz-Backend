@@ -8,16 +8,16 @@
 
 # To test locally following enviroment variable must be set in .env file
 
-PORT //Port Number
-DB_URL //mongodb URL
-DB_URL_TEST //For test files
-JWT_SECRET //Secret Key
-NODE_ENV = development
-LOG_KEY //logDNA -> optional
-CLIENT_ID_GOOGLE //OAUth
-CLIENT_SECRET_GOOGLE //OAuth
-BUCKET_NAME //AWS s3 bucket name
-REGION // AWS region
-AWS_ACCESS_KEY_ID //AWS access key
-AWS_SECRET_ACCESS_KEY //AWS secert key
-CALLBACK_GOOGLE// Callback url(note->use localtunnel for example)
+- PORT //Port Number<br>
+- DB_URL //mongodb URL<br>
+- DB_URL_TEST //For test files<br>
+- JWT_SECRET //Secret Key<br>
+- NODE_ENV = development<br>
+- LOG_KEY //logDNA -> optional<br>
+- CLIENT_ID_GOOGLE //OAUth<br>
+- CLIENT_SECRET_GOOGLE //OAuth<br>
+- BUCKET_NAME //AWS s3 bucket name<br>
+- REGION // AWS region<br>
+- AWS_ACCESS_KEY_ID //AWS access key<br>
+- AWS_SECRET_ACCESS_KEY //AWS secert key<br>
+- CALLBACK_GOOGLE// Callback url(note->use localtunnel for example)<br>
