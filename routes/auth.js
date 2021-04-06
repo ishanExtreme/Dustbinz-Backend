@@ -26,6 +26,7 @@ passport.authenticate('google', { session: false }),
 (req, res)=>{
     // take out ip of the app
     const redirect = redirectUrl.substring(redirectUrl.indexOf('/')+1);
+    console.log(`-------------------->exp:/${redirect}<-------------------`);
     // Bad request on creating database
     if(req.error) res.status(500).redirect(`exp:/${redirect}?error=Something Failed`)
     const token = req.user.generateAuthToken();
