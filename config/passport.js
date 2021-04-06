@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt');
 
 passport.use(new GoogleStrategy({
     // options for startegy
-    callbackURL: "https://dustbinz-backend.herokuapp.com/api/auth/google/redirect",
+    callbackURL: "http://dustbinz-backend.herokuapp.com/api/auth/google/redirect",
     clientID: process.env.CLIENT_ID_GOOGLE,
     clientSecret: process.env.CLIENT_SECRET_GOOGLE
 
