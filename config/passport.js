@@ -32,7 +32,8 @@ passport.use(new GoogleStrategy({
         let userName;
         // check the name from google account
         // if not satisfies database verification generate a randome name
-        if(profile.name.givenName < 5 || profile.name.givenName > 50)
+        if(profile.name.givenName.length < 5 
+            || profile.name.givenName.length > 50)
             userName = generator.generate({
                 length: 6,
                 numbers: true
