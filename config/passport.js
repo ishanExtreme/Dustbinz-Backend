@@ -23,12 +23,25 @@ passport.use(new GoogleStrategy({
     
     try {
         
+        //generate a random password
         const password = generator.generate({
             length: 10,
             numbers: true
-        })
+        });
+
+        let userName;
+        // check the name from google account
+        // if not satisfies database verification generate a randome name
+        if(profile.name.givenName < 5 || profile.name.givenName > 50)
+            userName = generator.generate({
+                length: 6,
+                numbers: true
+            });
+        else
+            userName = profile.name.givenName;
+
         user = new User({
-            name: profile.name.givenName,
+            name: userName,
             email: profile.emails[0].value,
             googleId: profile.id,
             password: password

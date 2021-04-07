@@ -62,7 +62,7 @@ const UserSchema = new mongoose.Schema({
 // virtual property that returns url from the imageKey
 UserSchema.virtual('ImageUrl').get(function() {
     //TODO: remove hardcode
-    return `https://dustbinz.s3.amazonaws.com/${this.imageKey}`;
+    return `https://dustbinz-app.s3.ap-south-1.amazonaws.com/${this.imageKey}`;
 });
 
 /**
