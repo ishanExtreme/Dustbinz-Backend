@@ -5,6 +5,8 @@
 ### Basic Idea:
 This repo contains the code for the backend of dustbinz APP, this whole backend is API based, these API's are called at frontend side.
 
+### [Frontend Repo](https://github.com/ishanExtreme/DustBinz-App-Frontend)
+
 ### Hosting:
 Node server is hosted on heroku. Link is [here](https://dustbinz-backend.herokuapp.com/)
 
