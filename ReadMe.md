@@ -40,26 +40,26 @@ Code is already hosted at [heroku](https://dustbinz-backend.herokuapp.com/), and
 ### Testing:
 To run tests run the following command *npm run test*
 
-* [auth.test.js](): Tests [auth]() middleware
-* [bins.test.js](): Tests [bins]() route
-* [user.test.js](): Tests generated auth token
+* [auth.test.js](https://github.com/ishanExtreme/Dustbinz-Backend/blob/main/tests/integration/auth.test.js): Tests [auth](https://github.com/ishanExtreme/Dustbinz-Backend/blob/main/middleware/auth.js) middleware
+* [bins.test.js](https://github.com/ishanExtreme/Dustbinz-Backend/blob/main/tests/integration/bins.test.js): Tests [bins](https://github.com/ishanExtreme/Dustbinz-Backend/blob/main/routes/bins.js) route
+* [user.test.js](https://github.com/ishanExtreme/Dustbinz-Backend/blob/main/tests/unit/models/user.test.js): Tests generated auth token
 
 ### API Referece:
 
-### Route *users*
+### Route [users](https://github.com/ishanExtreme/Dustbinz-Backend/blob/main/routes/users.js)
 * **POST**: "/users/" *Registers a new user* <br> req.body: {"name", "email", "password"} <br> response: generated JWT auth token, 400: bad request
 * **GET**: "users/google/*" *Google OAuth* <br> req.params: redirecting url
 * **PUT**: "users/change-pass" *Change the password of signed in user* **User must be authenticated to use this route** <br> req.body: {"currentPassword"} <br> response: 200: OK, 400: Bad Request
 * **PUT**: "users/update/" *Updates user fieilds*  **User must be authenticated to use this route** <br> req.body: {"name", "email"} <br> response: generated auth token, 400: bad requuest
 
-### Route *auth*
+### Route [auth](https://github.com/ishanExtreme/Dustbinz-Backend/blob/main/routes/auth.js)
 * **POST**: "/auth/" *Logging in existing user* <br> req.body:{"email", "password"} <br> response: auth token, 400: bad request
 * **GET**: "/auth/google/redirect" *Google OAuth sign in* <br> response: generated auth token, 400: bad request
 
-### Route *uploads*
+### Route [uploads](https://github.com/ishanExtreme/Dustbinz-Backend/blob/main/routes/upload.js)
 * **POST**: "/uploads/user-image" *Uploads user profile image to S3 bucket* **User must be authenticated to use this route** <br> req.file: image data <br> response: auth token, 400: bad request
 
-### Route *bins*
+### Route [bins](https://github.com/ishanExtreme/Dustbinz-Backend/blob/main/routes/bins.js)
 * **POST**: "/bins/" *Uploads bin data to databse* **User must be authenticated to use this route** <br> **Under Development...**
 
   
