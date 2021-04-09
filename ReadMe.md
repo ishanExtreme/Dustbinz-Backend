@@ -26,7 +26,7 @@ Code is already hosted at [heroku](https://dustbinz-backend.herokuapp.com/), and
 * AWS_ACCESS_KEY_ID //AWS access key
 * AWS_SECRET_ACCESS_KEY //AWS secert key
 
-### Overview of Tech stack/Frameworks/Libraries used:
+### Overview of some Tech stack/Frameworks/Libraries used:
 
 * Node.js
 * express
