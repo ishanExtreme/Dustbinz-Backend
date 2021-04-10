@@ -30,6 +30,7 @@ Code is already hosted at [heroku](https://dustbinz-backend.herokuapp.com/), and
 
 * Node.js
 * express
+* Google Cloud: For OAuth
 * MongoDB database
 * mongoose
 * aws-sdk: for managing S3 buckets
